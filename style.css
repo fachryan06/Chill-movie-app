@@ -1,0 +1,552 @@
+body {
+  background-color: #000000;
+  min-width: 1440px;
+  height: 1024px;
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: Lato, arial;
+  color: #ffffff;
+}
+
+.background {
+  width: 1440px;
+  height: 1024px;
+  position: absolute;
+  z-index: -1;
+}
+
+.main-container {
+  background-color: #181a1cd6;
+  width: 529px;
+  height: 663px;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 37px;
+  position: absolute;
+}
+
+.main-register-container {
+  background-color: #181a1cd6;
+  width: 529px;
+  height: 778px;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 37px;
+  position: absolute;
+}
+
+.logo-container {
+  /* border: 1px solid blueviolet; */
+  width: 163px;
+  height: 44px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 4px;
+}
+
+.logo-container img[alt="icon-movie"] {
+  width: 50px;
+}
+
+.logo-container img[alt="chill-logo"] {
+  width: 109px;
+  height: 44px;
+}
+
+.text-container {
+  /* border: 1px solid blueviolet; */
+  width: 174px;
+  height: 65px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+.text-container h3 {
+  font-size: 32px;
+  font-weight: 700;
+  /* border: 1px solid blueviolet; */
+  margin: 0px;
+}
+
+.text-container p {
+  font-size: 16px;
+  font-weight: 400px;
+  /* border: 1px solid blueviolet; */
+  margin: 0px;
+}
+
+.username-form {
+  /* border: 1px solid blueviolet; */
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  width: 449px;
+  height: 81px;
+  gap: 6px;
+}
+
+.username-form label {
+  font-size: 18px;
+  font-weight: 500px;
+}
+
+#username-form {
+  width: 425px;
+  height: 50px;
+  background-color: transparent;
+  border: 1px solid #e7e3fc3b;
+  border-radius: 24px;
+  color: #c1c2c4;
+  font-size: 16px;
+  font-weight: 400;
+  padding-left: 20px;
+}
+
+.password-form {
+  /* border: 1px solid blueviolet; */
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  width: 449px;
+  height: 112px;
+  gap: 6px;
+  margin-top: 37px;
+}
+
+.password-form label {
+  font-size: 18px;
+  font-weight: 500px;
+}
+
+#password-form {
+  width: 425px;
+  min-height: 50px;
+  background-color: transparent;
+  border: 1px solid #e7e3fc3b;
+  border-radius: 24px;
+  color: #c1c2c4;
+  font-size: 16px;
+  font-weight: 400;
+  padding-left: 20px;
+  /* position: static; */
+}
+
+.password-confirmed-form {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  width: 449px;
+  height: 112px;
+  gap: 6px;
+  /* margin-top: 37px; */
+}
+
+.password-confirmed-form label {
+  font-size: 18px;
+  font-weight: 500px;
+}
+
+#password-confirmed-form {
+  width: 425px;
+  min-height: 50px;
+  background-color: transparent;
+  border: 1px solid #e7e3fc3b;
+  border-radius: 24px;
+  color: #c1c2c4;
+  font-size: 16px;
+  font-weight: 400;
+  padding-left: 20px;
+}
+
+.text-sandi-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* border: 1px solid #e7e3fc3b; */
+  width: 449px;
+  padding-top: 5px;
+}
+
+.paragraph {
+  margin: 0px;
+  padding: 0px;
+  font-size: 16px;
+  color: #c1c2c4;
+}
+
+.paragraph2 {
+  margin: 0px;
+  padding: 0px;
+  font-size: 16px;
+  color: #ffffff;
+}
+
+.bold {
+  color: #ffffff;
+  font-weight: 400;
+}
+
+.button-container {
+  width: 449px;
+  height: 133px;
+  /* border: 1px solid #e7e3fc3b; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  gap: 10px;
+}
+
+.btn-masuk {
+  height: 50px;
+  background-color: #3d4142;
+  border-radius: 24px;
+  border: 1px solid #e7e3fc3b;
+  font-size: 16px;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.button-container p {
+  padding: 0px;
+  margin: 0px;
+  font-size: 14px;
+  color: #c1c2c4;
+}
+
+.btn-google {
+  background-color: transparent;
+  border: 1px solid #e7e3fc3b;
+  height: 47px;
+  border-radius: 24px;
+  color: #ffffff;
+  font-size: 16px;
+}
+
+.btn-google img {
+  width: 18px;
+  padding-right: 20px;
+  /* border: 1px solid #e7e3fc3b; */
+}
+
+.btn:hover {
+  background-color: #565858;
+  border: 1px solid #e7e3fc80;
+}
+
+.btn-google:hover {
+  background-color: #56585838;
+  border: 1px solid #e7e3fc3b;
+}
+
+/* icont eye */
+.icon-eye {
+  position: absolute;
+  left: 85%;
+  top: 58%;
+}
+
+.icon-eye2 {
+  position: absolute;
+  left: 85%;
+  top: 49.5%;
+}
+
+.icon-eye3 {
+  position: absolute;
+  left: 85%;
+  top: 64%;
+}
+
+/* MEDIA QUIERY */
+@media (max-width: 360px) {
+  body {
+    width: 360px;
+    max-height: 709px;
+  }
+
+  .background {
+    height: 709px;
+    width: max-content;
+  }
+
+  /* Media  Quairy login */
+  .main-container {
+    background-color: #181a1cd6;
+    width: 306px;
+    height: 390px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+    position: absolute;
+    padding: 0px;
+    margin: 0px;
+  }
+  .logo-container {
+    /* border: 1px solid blueviolet; */
+    width: 94px;
+    height: 24px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2.31px;
+  }
+  .logo-container img[alt="icon-movie"] {
+    width: 28.88px;
+  }
+  .logo-container img[alt="chill-logo"] {
+    width: 62.97px;
+    height: 24px;
+  }
+
+  .text-container {
+    /* border: 1px solid blueviolet; */
+    width: 111px;
+    height: 45px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4.62px;
+  }
+
+  .text-container h3 {
+    font-size: 18px;
+    font-weight: 700;
+    /* border: 1px solid blueviolet; */
+    margin: 0px;
+  }
+
+  .text-container p {
+    font-size: 10px;
+    font-weight: 400px;
+    /* border: 1px solid blueviolet; */
+    margin: 0px;
+  }
+
+  .username-form {
+    /* border: 1px solid blueviolet; */
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 258px;
+    height: 45.47px;
+    gap: 3.47px;
+  }
+
+  .username-form label {
+    font-size: 10px;
+    font-weight: 500px;
+  }
+
+  #username-form {
+    width: 238px;
+    height: 28px;
+    background-color: transparent;
+    border: 1px solid #e7e3fc3b;
+    border-radius: 12px;
+    color: #c1c2c4;
+    font-size: 9.24px;
+    font-weight: 400;
+    padding-left: 11.55px;
+  }
+
+  .password-form {
+    /* border: 1px solid blueviolet; */
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 256px;
+    height: 66.4px;
+    gap: 3.47px;
+    margin-top: 18px;
+  }
+
+  .password-form label {
+    font-size: 10px;
+    font-weight: 500px;
+  }
+
+  #password-form {
+    width: 238px;
+    min-height: 28px;
+    background-color: transparent;
+    border: 1px solid #e7e3fc3b;
+    border-radius: 12px;
+    color: #c1c2c4;
+    font-size: 9.24px;
+    font-weight: 400;
+    padding-left: 11.5px;
+    /* position: static; */
+  }
+
+  .text-sandi-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* border: 1px solid #e7e3fc3b; */
+    width: 245px;
+    padding-top: 4px;
+  }
+
+  .paragraph {
+    margin: 0px;
+    padding: 0px;
+    font-size: 10px;
+    color: #c1c2c4;
+  }
+
+  .paragraph2 {
+    margin: 0px;
+    padding: 0px;
+    font-size: 10px;
+    color: #ffffff;
+  }
+
+  .bold {
+    color: #ffffff;
+    font-weight: 400;
+  }
+
+  .button-container {
+    width: 256px;
+    height: 79.33px;
+    /* border: 1px solid #e7e3fc3b; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    gap: 5px;
+    margin-top: 10px;
+  }
+
+  .btn-masuk {
+    height: 30.17px;
+    width: 252px;
+    background-color: #3d4142;
+    border-radius: 13.86px;
+    border: 1px solid #e7e3fc3b;
+    font-size: 10px;
+    font-weight: 600;
+    color: #ffffff;
+  }
+
+  .button-container p {
+    padding: 0px;
+    margin: 0px;
+    font-size: 10px;
+    color: #c1c2c4;
+  }
+
+  .btn-google {
+    background-color: transparent;
+    border: 1px solid #e7e3fc3b;
+    width: 252px;
+    height: 27.15px;
+    border-radius: 13.86px;
+    color: #ffffff;
+    font-size: 10px;
+  }
+
+  .btn-google img {
+    width: 10px;
+    padding-right: 11.55px;
+    /* border: 1px solid #e7e3fc3b; */
+  }
+
+  .icon-eye {
+    position: absolute;
+    width: 12px;
+    left: 82%;
+    top: 56%;
+  }
+
+  /* Media  Quairy Register */
+  .main-register-container {
+    background-color: #181a1cd6;
+    width: 306px;
+    height: 452.28px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+    position: absolute;
+  }
+
+  .password-confirmed-form {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 256px;
+    height: 66.4px;
+    gap: 3.47px;
+    /* border: 1px solid blueviolet; */
+
+    /* margin-top: 37px; */
+  }
+
+  .password-confirmed-form label {
+    font-size: 10px;
+    font-weight: 500px;
+  }
+
+  #password-confirmed-form {
+    width: 238px;
+    min-height: 28px;
+    background-color: transparent;
+    border: 1px solid #e7e3fc3b;
+    border-radius: 12px;
+    color: #c1c2c4;
+    font-size: 9.24px;
+    font-weight: 400;
+    padding-left: 11.5px;
+  }
+
+  .password-form {
+    /* border: 1px solid blueviolet; */
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 256px;
+    height: 66.4px;
+    gap: 3.47px;
+    margin-top: 18px;
+  }
+
+  .icon-eye2 {
+    position: absolute;
+    width: 12px;
+    left: 82%;
+    top: 47.3%;
+  }
+
+  .icon-eye3 {
+    position: absolute;
+    width: 12px;
+    left: 82%;
+    top: 62%;
+  }
+}
+
+
+
